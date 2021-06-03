@@ -17,11 +17,8 @@ Just replace the files below in the folder `%ProgramFiles%\FileBot`.
 
 ## How to install on Linux
 
-DEB version:
-* `sudo nano /usr/share/filebot/filebot.sh`
-
-Portable version:
-* Find the **filebot.sh** file in your portable folder
+DEB version: `sudo nano /usr/share/filebot/filebot.sh`  
+Portable version: Find the **filebot.sh** file in your portable folder
 
 * Add `-Dapplication.update="skip"` in the last line, after `java` and before `$JAVA_OPTS` (or just replace with **filebot.sh**)
 
